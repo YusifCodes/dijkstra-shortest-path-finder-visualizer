@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: rgb(148, 250, 209);
+  background: linear-gradient(
+    90deg,
+    rgb(130, 214, 180) 0%,
+    rgb(144, 190, 192) 100%,
+    rgb(130, 170, 172) 100%
+  );
+}
+
+.logo {
+  font-size: 5vh;
+  padding: 1vh;
+  font-size: 400;
+  color: rgb(255, 255, 255)
+}
+
+.help{
+  float: right;
+}
+
+.help li{
+  display: inline-block;
+  padding-right: 2vh;
+}
+
+.help-text{
+  font-size: 4vh;
+  color: white;
+}
+
+table {
+  margin: 0 auto;
+  position: absolute;
+  top: 15vh;
+  border-collapse: collapse;
+}
+
+td {
+  width: 25px;
+  height: 25px;
+  border: 2px solid rgb(73, 73, 73);
+  margin: 0px;
+}
+
+.inputs {
+  position: absolute;
+  left: 5vh;
+}
+
+.inputs li {
+  display: inline-block;
+}
+
+.text-input {
+  width: 10vh;
+  height: 5vh;
+  font-size: 2.5vh;
+  text-align: center;
+  background-color:honeydew;
+  box-shadow: 0px 0px 2px grey;
+  border: none;
+  color: rgb(88, 88, 88)
+}
+
+.block-btn{
+  width: 10vh;
+  height: 5vh;
+  border: none;
+  font-size: 2.5vh;
+  background-color:rgb(250, 252, 122);
+  box-shadow: 0px 0px 2px grey;
+  border: none;
+  color: rgb(88, 88, 88);
+}
+
+.start {
+  width: 10vh;
+  height: 5vh;
+  border: none;
+  font-size: 2.5vh;
+  background-color:rgb(132, 255, 169);
+  box-shadow: 0px 0px 2px grey;
+  border: none;
+  color: rgb(88, 88, 88)
+}
+
+.clear{
+  width: 10vh;
+  height: 5vh;
+  border: none;
+  font-size: 2.5vh;
+  background-color:rgb(132, 165, 255);
+  box-shadow: 0px 0px 2px grey;
+  border: none;
+  color: rgb(88, 88, 88)
+}
+
+.a {
+  background-color: blue;
+  transition: 0.5s ease all;
+}
+
+.b {
+  background-color: rgb(255, 0, 0);
+  transition: 0.5s ease all;
+}
+
+.yellow {
+  background-color: rgb(230, 230, 29);
+  transition: 0.5s ease all;
+}
+
+.pink {
+  background-color: rgb(226, 0, 188);
+  transition: 0.5s ease all;
+}
+
+.wall {
+  background-color: #000;
+  transition: 0.5s ease all;
+}
